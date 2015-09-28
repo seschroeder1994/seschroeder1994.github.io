@@ -1,0 +1,27 @@
+h1 {
+	font-family:Helvetica;
+	float:right;;
+}
+
+nav {
+	font-family:Helvetica;
+	float:left;
+}
+
+ul {
+	font-family:Helvetica;
+	float:left;
+	margin:15px;
+	padding:5px;
+	}
+	
+ol {
+	font-family:helvetica;
+	float:right;
+	margin:15px;
+	padding:5px;
+}
+
+p {
+	font-family:helvetica;
+	float:left}

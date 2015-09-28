@@ -1,0 +1,27 @@
+ol {
+	font-family:georgia;
+	float:left;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	width:6em;
+	margin:10px;
+}
+
+#logo {
+	display: block;
+	margin-left:auto;
+	margin-right:auto;
+	}
+	
+#dog-img {
+	float:left;
+	margin:40px;
+}
+
+#cat-img {
+	float:left;
+	width:400px;
+	height:200px;
+	margin:40px;
+}
