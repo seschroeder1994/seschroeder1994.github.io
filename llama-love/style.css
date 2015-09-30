@@ -13,8 +13,9 @@ h2 {
 }
 
 article {
-	margin:20px;
-	width:490px;
+	margin-left:5%;
+	margin-right:5%;;
+	width:40%;
 	float:left;
 }
 
