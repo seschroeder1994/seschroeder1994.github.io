@@ -52,41 +52,50 @@ table {
 
 
 nav {
-	border-top:2px solid black;
-	border-bottom:2px solid black;
+	margin:0 auto;
+	width:960px;
+	border-top:4px solid black;
+	border-bottom:4px solid black;
 	margin-top:40px;
 	margin-bottom:40px;
 	height:32px;
 	}
 
 nav li {
+	margin:0 auto;
 	font-family:georgia;
+	font-style:bold;
 	text-transform:uppercase;
 	float:left;
-	margin-left:auto;
-	margin-right:auto;
 	text-align:center;
 	width:6em;
 	padding:10px;
 }
 
 section {float:left;
-	width:50%;}
+	padding-bottom:10px;
+	width:50%;
+	  margin:0 auto;
+	  width:960px;
+	}
 
 #logo {
+	margin-top: 30px;
 	display: block;
 	margin-left:auto;
 	margin-right:auto;
 	}
 	
 #dog-img {
+	padding-right:15px;
 	float:left;
 }
 
 #cat-img {
 	float:left;
-	width:400px;
-	height:200px;
+	padding-right:15px;
+	padding-left:15px;
+
 }
 
 h1 {font-family: helvetica;
@@ -94,7 +103,10 @@ h1 {font-family: helvetica;
 	font-size:24px;}
 
 footer {
-	margin-top:20px;
-	border-top:2.5px solid black;
+	  margin:0 auto;
+	  width:960px;
+	padding-top:10px;
+	padding-bottom:10px;
+	border-top:3px solid black;
 	clear:both;
 }
