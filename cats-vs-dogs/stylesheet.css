@@ -50,9 +50,12 @@ table {
 	border-spacing: 0;
 }
 
+li {list-style-type:disc;
+	font-weight:bold;}
 
 nav {
-	margin:0 auto;
+	text-align:center;
+	display:inline-block;
 	width:960px;
 	border-top:4px solid black;
 	border-bottom:4px solid black;
@@ -66,17 +69,15 @@ nav li {
 	font-family:georgia;
 	font-style:bold;
 	text-transform:uppercase;
-	float:left;
+	display:inline-block;
 	text-align:center;
 	width:6em;
 	padding:10px;
 }
 
 section {float:left;
-	padding-bottom:10px;
-	width:50%;
-	  margin:0 auto;
-	  width:960px;
+		margin:5%;
+		width:40%;
 	}
 
 #logo {
@@ -88,19 +89,37 @@ section {float:left;
 	
 #dog-img {
 	padding-right:15px;
+	padding-bottom:15px;
 	float:left;
 }
+
+a {color:red}
 
 #cat-img {
 	float:left;
 	padding-right:15px;
-	padding-left:15px;
+	padding-bottom:15px;
 
 }
 
-h1 {font-family: helvetica;
-	font-style:bold;
+#dog {font-family: georgia;
+	margin-bottom:10px;
+	font-weight:bold;
 	font-size:24px;}
+	
+#cat {font-family: georgia;
+	margin-bottom:10px;
+		font-weight:bold;
+		font-size:24px;}
+#wiki {
+	float:left;
+	width:50%;
+}
+
+#copyright {
+	float:right;
+	width:50%;
+}
 
 footer {
 	  margin:0 auto;
