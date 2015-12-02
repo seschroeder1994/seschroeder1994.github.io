@@ -137,3 +137,7 @@ footer {
 	border-top:3px solid black;
 	clear:both;
 }
+
+@media screen and (max-width:600px){
+	section {float:none}
+}
