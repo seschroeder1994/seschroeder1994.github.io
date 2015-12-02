@@ -56,7 +56,7 @@ li {list-style-type:disc;
 nav {
 	text-align:center;
 	display:inline-block;
-	width:960px;
+	width:100%;
 	border-top:4px solid black;
 	border-bottom:4px solid black;
 	margin-top:40px;
@@ -85,12 +85,14 @@ section {float:left;
 	display: block;
 	margin-left:auto;
 	margin-right:auto;
+	max-width:80%;
 	}
 	
 #dog-img {
 	padding-right:15px;
 	padding-bottom:15px;
 	float:left;
+	width:98%;
 }
 
 a {color:red}
@@ -99,6 +101,7 @@ a {color:red}
 	float:left;
 	padding-right:15px;
 	padding-bottom:15px;
+	width:98%;
 
 }
 
@@ -122,8 +125,8 @@ a {color:red}
 }
 
 footer {
-	  margin:0 auto;
-	  width:960px;
+	margin-bottom:4em;  	
+	width:100%;
 	padding-top:10px;
 	padding-bottom:10px;
 	border-top:3px solid black;
