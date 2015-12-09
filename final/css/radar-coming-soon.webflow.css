@@ -5,8 +5,9 @@
 }
 
 .hero-section {
-  height: 494px;
-  padding-top: 26px;
+  height: 616px;
+  margin-top: 58px;
+  padding-top: 66px;
   padding-left: 0px;
   background-color: #616161;
   background-image: url('../images/Dota Crowd Cheering copy.jpg');
@@ -16,11 +17,31 @@
   color: #b63333;
 }
 
+.nav-link {
+  margin-top: 13px;
+  -webkit-transition: color 300ms ease;
+  transition: color 300ms ease;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.nav-link:hover {
+  font-family: 'Open Sans', sans-serif;
+  color: #fc307b;
+}
+
+.nav-bar {
+  height: 80px;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
 .navbar {
   position: fixed;
   left: 0px;
   top: 0px;
   right: 0px;
+  height: 84px;
+  background-color: #ececec;
 }
 
 .herocontainer {
@@ -64,8 +85,8 @@
 }
 
 .features1 {
-  height: 466px;
-  padding-top: 88px;
+  height: 472px;
+  padding-top: 86px;
   background-color: white;
 }
 
@@ -105,6 +126,12 @@
   background-image: url('../images/Radar Logo.png');
   background-position: 50% 50%;
   background-size: contain;
+}
+
+.logo.logo2 {
+  margin-left: 38px;
+  background-position: 50% 50%;
+  background-size: 37px;
 }
 
 .teaserinfo {
@@ -256,6 +283,38 @@
   text-decoration: none;
 }
 
+.subhero {
+  height: 644px;
+  background-color: #303030;
+}
+
+.app-preview-png {
+  height: 710px;
+  padding-bottom: 0px;
+  background-image: url('../images/Isometric-App-Preview.png');
+  background-position: 50% -101px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.navlink {
+  position: static;
+  overflow-x: visible;
+  overflow-y: visible;
+  margin-top: 13px;
+  -webkit-transition: color 300ms ease;
+  transition: color 300ms ease;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.navlink:hover {
+  color: #fc307b;
+}
+
+.navlink.w--current {
+  margin-top: 13px;
+}
+
 html.w-mod-js *[data-ix="load-hero"] {
   opacity: 0;
   -webkit-transform: translate(-100px, 0px);
@@ -275,6 +334,10 @@ html.w-mod-js *[data-ix="iphone-fade-in"] {
   -webkit-transform: translate(100px, 0px);
   -ms-transform: translate(100px, 0px);
   transform: translate(100px, 0px);
+}
+
+html.w-mod-js *[data-ix="subhero-fade-in"] {
+  opacity: 0;
 }
 
 @media (max-width: 991px) {
@@ -298,11 +361,15 @@ html.w-mod-js *[data-ix="iphone-fade-in"] {
     padding-right: 31px;
     padding-left: 31px;
   }
+  .hamburger {
+    margin-top: 13px;
+  }
 }
 
 @media (max-width: 767px) {
   .hero-section {
-    padding-top: 10px;
+    height: 563px;
+    padding-top: 65px;
   }
   .herocontainer {
     padding-top: 8px;
@@ -334,14 +401,19 @@ html.w-mod-js *[data-ix="iphone-fade-in"] {
     padding-right: 43px;
     padding-left: 43px;
   }
+  .app-preview-png {
+    height: 583px;
+    background-position: 50% 50%;
+    background-size: 1119px;
+  }
 }
 
 @media (max-width: 479px) {
   .hero-section {
-    height: 894px;
+    height: 927px;
   }
   .herocontainer {
-    height: 1013px;
+    height: 1119px;
   }
   .heroheader {
     float: none;
@@ -350,16 +422,24 @@ html.w-mod-js *[data-ix="iphone-fade-in"] {
     width: 100%;
   }
   .features1 {
-    height: 1028px;
+    height: 1058px;
     margin: 0px 28px;
     padding-top: 27px;
     padding-bottom: 27px;
   }
+  .logo.logo2.w--current {
+    width: 62px;
+    margin-left: 0px;
+    padding-left: 0px;
+    float: left;
+  }
   .teaserinfo {
     margin-top: 18px;
+    margin-bottom: 7px;
     padding-top: 0px;
   }
   .teaserinfo.teaser3 {
+    height: 331px;
     margin-top: 45px;
   }
   .form-entry {
@@ -376,6 +456,15 @@ html.w-mod-js *[data-ix="iphone-fade-in"] {
   .footer-paragraph {
     width: 50%;
     padding-top: 33px;
-    font-size: 12px;
+    font-size: 13px;
+  }
+  .subhero {
+    height: 584px;
+  }
+  .app-preview-png {
+    background-position: 50% 50%;
+  }
+  .navlink.w--current {
+    margin-top: 13px;
   }
 }

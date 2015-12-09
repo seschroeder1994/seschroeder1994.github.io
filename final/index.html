@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- This site was created in Webflow. http://www.webflow.com-->
-<!-- Last Published: Tue Dec 08 2015 10:11:33 GMT+0000 (UTC) -->
+<!-- Last Published: Wed Dec 09 2015 15:24:59 GMT+0000 (UTC) -->
 <html data-wf-site="56666913156e57e405a35807" data-wf-page="56666913156e57e405a35808">
 <head>
   <meta charset="utf-8">
@@ -14,7 +14,7 @@
   <script>
     WebFont.load({
       google: {
-        families: ["Montserrat:400,700","Open Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic"]
+        families: ["Open Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic","Montserrat:400,700"]
       }
     });
   </script>
@@ -23,7 +23,17 @@
   <link rel="apple-touch-icon" href="https://daks2k3a4ib2z.cloudfront.net/img/webclip.png">
 </head>
 <body>
-  <div class="w-section hero-section">
+  <div data-collapse="tiny" data-animation="over-right" data-duration="400" data-contain="1" class="w-nav navbar">
+    <div class="w-container nav-bar">
+      <a href="#headhero" class="w-nav-brand logo logo2"></a>
+      <nav role="navigation" class="w-nav-menu nav-menu"><a href="#headhero" class="w-nav-link navlink">Top</a><a href="#preview" class="w-nav-link nav-link">Preview</a><a href="#features" class="w-nav-link nav-link">Features</a>
+      </nav>
+      <div class="w-nav-button hamburger">
+        <div class="w-icon-nav-menu"></div>
+      </div>
+    </div>
+  </div>
+  <div id="headhero" class="w-section hero-section">
     <div data-ix="load-hero" class="w-container herocontainer">
       <div data-ix="iphone-fade-in" class="header-png"></div>
       <h1 class="heroheader">NEVER<br>PLAY<br>ALONE.</h1>
@@ -43,7 +53,10 @@
       </div>
     </div>
   </div>
-  <div class="w-section features1">
+  <div class="w-section subhero">
+    <div id="preview" data-ix="subhero-fade-in" class="app-preview-png"></div>
+  </div>
+  <div id="features" class="w-section features1">
     <div class="w-container teasercontainer">
       <div class="w-row">
         <div data-ix="column-fade" class="w-col w-col-4 teaserinfo">

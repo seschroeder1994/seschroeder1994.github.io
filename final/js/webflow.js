@@ -4319,5 +4319,6 @@
 Webflow.require('ix').init([
   {"slug":"load-hero","name":"Load Hero","value":{"style":{"opacity":0,"x":"-100px","y":"0px"},"triggers":[{"type":"load","stepsA":[{"opacity":1,"wait":400,"transition":"transform 400ms ease 0ms, opacity 500ms ease 0ms","x":"0px","y":"0px"}],"stepsB":[]}]}},
   {"slug":"column-fade","name":"Column Fade","value":{"style":{"opacity":0.13,"scale":0.5},"triggers":[{"type":"load","stepsA":[{"opacity":1,"transition":"transform 500ms ease 0ms, opacity 500ms ease 0ms","scale":1}],"stepsB":[]}]}},
-  {"slug":"iphone-fade-in","name":"iPhone Fade In","value":{"style":{"opacity":0,"x":"100px","y":"0px"},"triggers":[{"type":"load","stepsA":[{"opacity":1,"transition":"transform 500ms ease 0ms, opacity 500ms ease 0ms","x":"0px","y":"0px"}],"stepsB":[]}]}}
+  {"slug":"iphone-fade-in","name":"iPhone Fade In","value":{"style":{"opacity":0,"x":"100px","y":"0px"},"triggers":[{"type":"load","stepsA":[{"opacity":1,"transition":"transform 500ms ease 0ms, opacity 500ms ease 0ms","x":"0px","y":"0px"}],"stepsB":[]}]}},
+  {"slug":"subhero-fade-in","name":"Subhero Fade In","value":{"style":{"opacity":0},"triggers":[{"type":"load","stepsA":[{"opacity":1,"transition":"opacity 500ms ease 0ms"}],"stepsB":[]}]}}
 ]);
